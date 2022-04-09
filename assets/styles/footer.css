@@ -1,0 +1,24 @@
+/* Footer styles */
+
+.line {
+    width: 100%;
+    height: 5px;
+    background: transparent linear-gradient(270deg, #70E0B5 0%, #2E9EA1 100%) 0% 0% no-repeat padding-box;
+}
+
+footer {
+    padding: 20px 44px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+footer button {
+    background-color: unset;
+}
+
+footer button.place-bet {
+    background: #F05A22 0% 0% no-repeat padding-box;
+    padding: 14px 46px;
+    border-radius: 5px;
+}

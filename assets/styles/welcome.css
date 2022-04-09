@@ -1,0 +1,78 @@
+
+section.welcome {
+    width: 100%;
+    padding-top: 30px;
+}
+
+section.welcome .welcome-head {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    position: relative;
+}
+
+section.welcome .welcome-head h2 {
+    max-width: 620px;
+    letter-spacing: 0px;
+    line-height: 28px;
+}
+
+section.welcome .welcome-head p {
+    max-width: 532px;
+    line-height: 20px;
+}
+
+section.welcome .welcome-head img {
+    position: absolute;
+    top: -49px;
+    right: 0px;
+    
+}
+
+section.welcome .welcome-content {
+    margin-top: 35px;
+    position: relative;
+}
+
+section.welcome .welcome-content img.content-background {
+    width: 100%;
+    object-fit: cover;
+}
+
+section.welcome .welcome-content .welcome-slider {
+    width: 100%;
+    position: absolute;
+    left: 44px;
+    bottom: -60px;
+}
+
+section.welcome .welcome-content .welcome-slider .swiper-slide {
+    width: 274px !important;
+    height: 148px;
+    border-radius: 20px;
+    background-image: url('../images/tab-bg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section.welcome .welcome-content .welcome-slider .swiper-slide.active {
+    background-image: url('../images/tab-bg-active.png');
+}
+
+section.welcome .welcome-content .welcome-slider .swiper-slide.active p img {
+    display: none;
+}
+
+section.welcome .welcome-content .welcome-slider .swiper-slide p {
+    font-size: 15px;
+}
+
+section.welcome .welcome-content .welcome-slider .swiper-slide h4 {
+    font-size: 26px;
+}

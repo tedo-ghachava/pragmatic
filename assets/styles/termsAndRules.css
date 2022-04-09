@@ -1,0 +1,59 @@
+
+/* Terms and rules section styles */
+
+section.terms-and-rules {
+    padding: 44px;
+}
+
+section.terms-and-rules h3 {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 34px;
+}
+
+section.terms-and-rules .accordion {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 9.8px;
+
+}
+
+section.terms-and-rules .accordion .accordion-item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+section.terms-and-rules .accordion .accordion-item .accordion-item__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 21px 30px;
+    
+    
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+section.terms-and-rules .accordion .accordion-item .accordion-item__content {
+    overflow: hidden;
+    max-height: 0px;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease-in-out;
+    padding: 0px 30px;
+}
+
+section.terms-and-rules .accordion .accordion-item .accordion-item__header i {
+    transition: transform 0.3s ease-in-out;
+}
+
+section.terms-and-rules .accordion .accordion-item.active .accordion-item__header i {
+    transform: rotate(-90deg);
+}
+
+section.terms-and-rules .accordion .accordion-item.active .accordion-item__content {
+    max-height: 400px;
+    padding-bottom: 21px;
+}

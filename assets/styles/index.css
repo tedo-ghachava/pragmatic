@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: 'Helvetica';
+    font-weight: 500;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: white;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+p {
+    color: white;
+    font-size: 16px;
+}
+
+button {
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 4px 16px;
+    border-radius: 13px;
+    cursor: pointer;
+    color: white;
+}
+
+.container-padding {
+    padding-left: 44px;
+}
+
+.page-wrapper {
+    background-color: #141529;
+    max-width: 940px;
+    margin: auto;
+    overflow: hidden;
+}
